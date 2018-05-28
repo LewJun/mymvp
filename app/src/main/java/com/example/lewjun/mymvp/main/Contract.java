@@ -5,7 +5,10 @@ import com.example.lewjun.mymvp.BaseView;
 
 public class Contract {
     interface View extends BaseView {
-
+        /**
+         * hello
+         */
+        void hello();
     }
 
     interface Presenter extends BasePresenter<View> {

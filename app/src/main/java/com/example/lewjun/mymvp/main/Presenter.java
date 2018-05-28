@@ -14,5 +14,6 @@ public class Presenter extends BasePresenterImpl<Contract.View> implements Contr
     public void start() {
         super.start();
         Log.i(TAG, "start: ");
+        mView.hello();
     }
 }
